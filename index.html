@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mabel</title>
+    <link rel="stylesheet" href="mab.css">
+		<link rel="stylesheet" href="fonts.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/jsmenu.js"></script>
+</head>
+<body>
+	<div align="center">
+		<img   src="img/header.jpg"   width="600" height="150">
+	</div>
+	<header>
+	<div class="menu_bar">
+		<a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+	</div>
+		<nav>
+		<ul>
+			<li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+			<li class="submenu">
+				<a href="#"><span class="icon-briefcase"></span>¿Quienes somos?
+				<span class="caret icon-chevron-small-down"></span></a>
+				<ul class="children">
+					<li><a href="mabel.html">Mabel</a><span	class=""></span></li>
+					<li><a href="mision.html">Misión</a><span	class=""></span></li>
+					<li><a href="vision.html">visión</a><span	class=""></span></li>
+					<li><a href="historia.html">Historia</a><span	class=""></span></li>
+				</ul>
+			</li>
+			<li><a href="instalaciones.html"><span class="icon-folder-images"></span> Instalaciones</a></li>
+			<li class="submenu">
+			<li><a href="#"><span class="icon-paper-plane"></span> Padres
+			<span class="caret icon-chevron-small-down"></span></a>
+			<ul class="children">
+				<li><a href="calendarios.html">Calendarios</a></li>
+						<li><a href="avisos.html">Avisos</a></li>
+						<li><a href="tareas.html">Tareas</a></li>
+			</ul>
+			</li>
+			<li><a href="contacto.html"><span class="icon-mail"></span> Contacto</a></li>
+		</ul>
+	</nav>
+	</header>
+		<br>
+		<div align="center">
+           <h1>Centro Educativo Mabel</h1>
+           <h2><i>“Las Raíces de la Cultura se Riegan con la Educación”</i> </h2>
+		</div>
+		<div class="main">
+			<div class="slides">
+				<img src="img/frente_mab.jpg" alt="">
+				<img src="img/pat.jpg" alt="">
+				<img src="img/descarga.jpg" alt="">
+				<img src="img/descargaarbol.jpg" alt="">
+				<img src="img/descargaflor.jpg" alt="">
+				<img src="img/descargaGC.jpg" alt="">
+				<img src="img/descargaRoja.jpg" alt="">
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.slides.js"></script>
+		<script>
+			$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+}); 
+		</script>
+	
+		<footer>
+			<p>&#174; Centro Educativo Mabel, 2017</p>
+		</footer>
+</body>
+</html>
